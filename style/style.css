@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: black;
+    background-color: rgb(178, 21, 21);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logocdi {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.titulo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.pagoficial {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px
+}
+
+.nav {
+    background-color: black;
+    height: 50px;
+    font-size: 25px;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15%;
+    padding: 15px;
+    color: red;
+    justify-content: center;
+}
+
+.inicio a {
+    color: red;
+    text-decoration: none;
+    transition: text-decoration: 0.3s;
+}
+
+.socios a {
+    color: red;
+    text-decoration: none;
+    transition: text-decoration: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.noticia {
+    background-color: rgb(195, 148, 148);
+}
+
+.titulonoticia {
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedor {
+    display: grid;
+    height: 1000px;
+    width: 100%;
+    padding: 20px;
+    margin-block: 20px;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.noticia1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.noticia2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.noticia3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.noticia4 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.noticia5 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.noticia6 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    color: white;
+  }
+
+  .social-media img, .extra-logo img {
+    width: 40px;
+    margin: 5px;
+  }
+
+  .social-media, .info, .extra-logo {
+    margin: 10px;
+  }
+
+  .redes-sociales {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .lista-redes {
+    list-style: none;
+  }
+
+  .logoig {
+    
+  }
+
+  .informacion {
+    font-size: 30px;
+  }
+
+  .inform {
+    font-size: 12px;
+  }
+
+  .info p {
+    margin: 5px 0;
+}
+
+.yo {
+    font-size: 10px;
+    margin-top: auto;
+    
+}
+
+
